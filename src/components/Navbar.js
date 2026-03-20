@@ -25,6 +25,21 @@ export default function Navbar({ activeTab, setActiveTab }) {
     { name: "Join Us", href: "#recruitment" },
   ];
 
+  // Handles Nav Menu & Remove hash stacking 
+  // added smooth behavior for smooth scroll
+  const handleMenu = (e, href) => {
+    e.preventDefault();
+
+    const targetId = href.replace("#", "");
+    setActiveTab(targetId);
+
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      window.history.replaceState(null, "", `#${targetId}`);
+    }
+  };
+
   return (
     <>
       <motion.nav
@@ -35,8 +50,11 @@ export default function Navbar({ activeTab, setActiveTab }) {
         ${scrolled ? "backdrop-blur-md   bg-zinc-950/80" : "bg-transparent py-6"} `}
       >
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <div className={`font-heading font-black uppercase tracking-widest transition-all duration-600 ${scrolled? "text-2xl" : "text-4xl"}`}>
-            CH<GlitchText  text={"SN"} className={"text-purple-400"}/>
+          <div
+            className={`font-heading font-black uppercase tracking-widest transition-all duration-600 ${scrolled ? "text-2xl" : "text-4xl"}`}
+          >
+            CH
+            <GlitchText text={"SN"} className={"text-purple-400"} />
           </div>
 
           <ul className="hidden md:flex gap-8 font-medium text-zinc-300">
@@ -48,7 +66,9 @@ export default function Navbar({ activeTab, setActiveTab }) {
                   <Link
                     href={link.href}
                     className="relative font-sub-heading text-xl hover:text-purple-400 transition-colors"
-                    onClick={() => setActiveTab(link.href.replace("#", ""))}
+                    onClick={(e) => {
+                      handleMenu(e, link.href)
+                    }}
                   >
                     {isActive && (
                       <motion.span
@@ -90,7 +110,7 @@ export default function Navbar({ activeTab, setActiveTab }) {
             href={tab.href}
             onClick={() => {
               setIsOpen(false);
-              setActiveTab(tab.href.replace("#", ""));
+              handleMenu(e, tab.href)
             }}
             className={`font-sub-heading text-2xl font-scifi-header tracking-widest whitespace-nowrap  ${activeTab === tab.href.replace("#", "") ? "text-purple-400" : "text-white/70"}`}
           >
