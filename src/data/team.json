@@ -1,0 +1,76 @@
+{
+  "leaders": [
+    {
+      "id": 1,
+      "name": "Chunchunmaru",
+      "role": "Boss Leader",
+      "signature": "Audino",
+      "quote": "Beauty with Brain",
+      "trainerImg": "/images/trainerImages/Chunchunmaru.png",
+      "pokemonImg": "/images/pokemonImages/shiny-audino.png",
+      "color":""
+    },
+    {
+      "id": 2,
+      "name": "Rieri",
+      "role": "Co-Leader",
+      "signature": "Mudkip",
+      "quote": "Insik Panic, Sell",
+      "trainerImg": "/images/trainerImages/Rieri.png",
+      "pokemonImg": "/images/pokemonImages/shiny-mudkip.png"
+      
+    },
+    {
+      "id": 3,
+      "name": "PlayerThree",
+      "role": "Commander",
+      "signature": "Ditto",
+      "quote": "Perfect IVs win championships.",
+      "trainerImg": "/images/trainerImages/Rieri.png",
+      "pokemonImg": "/images/pokemonImages/shiny-mudkip.png"
+    },
+    {
+      "id": 4,
+      "name": "PlayerFour",
+      "role": "Commander",
+      "signature": "Garchomp",
+      "quote": "Victory is calculated, not left to chance.",
+      "trainerImg": "/images/trainerImages/Rieri.png",
+      "pokemonImg": "/images/pokemonImages/shiny-mudkip.png"
+    },{
+      "id": 5,
+      "name": "PlayerFive",
+      "role": "Commander",
+      "signature": "Garchomp",
+      "quote": "Victory is calculated, not left to chance.",
+      "trainerImg": "/images/trainerImages/Rieri.png",
+      "pokemonImg": "/images/pokemonImages/shiny-mudkip.png"
+    },
+    {
+      "id": 6,
+      "name": "PlayerSix",
+      "role": "Commander",
+      "signature": "Garchomp",
+      "quote": "Victory is calculated, not left to chance.",
+      "trainerImg": "/images/trainerImages/Rieri.png",
+      "pokemonImg": "/images/pokemonImages/shiny-mudkip.png"
+    } 
+    
+  ],
+
+  "teamRules" : [
+    "Respect the PokeMMO Terms of Service at all times. No botting, cheating or RMT.",
+    "Maintain a professional attitude in Global and Channel chats.",
+    "Respect their authority and comply with their warnings immediately.",
+    "Do not scam other trainers. Fair play is expected at all times.",
+    "Treat fellow members with kindness and respect."
+  ],
+  
+  "requirements" : [
+    "Clean player record (No bans/warnings)",
+    "Strictly no RMT history",
+    "100+ Hours of Logged Playtime",
+    "Friendly and Respectful",
+    "A positive attitude and willingness to learn"
+  ]
+}
