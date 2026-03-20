@@ -26,9 +26,10 @@ body {
   cursor: url('/cursor/1.png'), auto;
 }
  
-a, button, [role="button"], input[type="submit"] {
+a, a > div, button, [role="button"], input[type="submit"] {
   cursor: url('/cursor/2.png'), pointer;
 }
+
 
 /* Gltch */
 

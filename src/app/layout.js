@@ -38,6 +38,7 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       className={`${inter.variable} ${pressStart.variable} ${vt323.variable} h-full antialiased`}
+      data-scroll-behavior="smooth"
     >
       <body
         className={`font-sans bg-zinc-900 text-white min-h-full select-none `}
