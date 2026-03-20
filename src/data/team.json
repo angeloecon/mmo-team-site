@@ -15,46 +15,46 @@
       "name": "Rieri",
       "role": "Co-Leader",
       "signature": "Mudkip",
-      "quote": "Insik Panic, Sell",
+      "quote": "Good things come to those who wait. Great things come to those who fish.",
       "trainerImg": "/images/trainerImages/Rieri.png",
       "pokemonImg": "/images/pokemonImages/shiny-mudkip.png"
       
     },
     {
       "id": 3,
-      "name": "PlayerThree",
+      "name": "Jejejer",
       "role": "Commander",
       "signature": "Ditto",
-      "quote": "Perfect IVs win championships.",
+      "quote": "I let my Pokémon do the talking.",
       "trainerImg": "/images/trainerImages/Rieri.png",
       "pokemonImg": "/images/pokemonImages/shiny-mudkip.png"
     },
     {
       "id": 4,
-      "name": "PlayerFour",
+      "name": "Scchizo",
       "role": "Commander",
       "signature": "Garchomp",
-      "quote": "Victory is calculated, not left to chance.",
+      "quote": "100,000 encounters? Sounds like a relaxing Tuesday.",
       "trainerImg": "/images/trainerImages/Rieri.png",
       "pokemonImg": "/images/pokemonImages/shiny-mudkip.png"
     },{
       "id": 5,
-      "name": "PlayerFive",
+      "name": "Kaori",
       "role": "Commander",
       "signature": "Garchomp",
-      "quote": "Victory is calculated, not left to chance.",
+      "quote": "Why settle for standard when you can afford to sparkle?",
       "trainerImg": "/images/trainerImages/Rieri.png",
       "pokemonImg": "/images/pokemonImages/shiny-mudkip.png"
     },
     {
       "id": 6,
-      "name": "PlayerSix",
+      "name": "Ruiner",
       "role": "Commander",
       "signature": "Garchomp",
-      "quote": "Victory is calculated, not left to chance.",
+      "quote": "I don't play the meta. I fund it.",
       "trainerImg": "/images/trainerImages/Rieri.png",
       "pokemonImg": "/images/pokemonImages/shiny-mudkip.png"
-    } 
+    }
     
   ],
 
