@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import HeroTitle from "./Title/HeroTitle";
+import Particles from "./Effects/Particles";
 
 const bgImages = [
   "/images/hero-bg-1.png",
@@ -48,7 +49,8 @@ export default function Hero() {
       </div>
 
       <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-zinc-900/60 to-transparent z-0" />
-
+      
+      <Particles/>
       <HeroTitle/>
 
       <motion.div

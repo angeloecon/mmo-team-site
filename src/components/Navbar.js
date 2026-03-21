@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { HamburgerIcon, CloseIcon } from "./Icons";
-import GlitchText from "./GlitchText";
+import GlitchText from "./Effects/GlitchText";
 
 export default function Navbar({ activeTab, setActiveTab }) {
   const [scrolled, setScrolled] = useState(false);
