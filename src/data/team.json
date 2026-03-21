@@ -54,6 +54,15 @@
       "quote": "I don't play the meta. I fund it.",
       "trainerImg": "/images/trainerImages/Rieri.png",
       "pokemonImg": "/images/pokemonImages/shiny-mudkip.png"
+    },
+    {
+      "id": 6,
+      "name": "Ruiner",
+      "role": "Commander",
+      "signature": "Garchomp",
+      "quote": "I don't play the meta. I fund it.",
+      "trainerImg": "/images/trainerImages/Rieri.png",
+      "pokemonImg": "/images/pokemonImages/shiny-mudkip.png"
     }
     
   ],
