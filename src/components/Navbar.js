@@ -108,7 +108,7 @@ export default function Navbar({ activeTab, setActiveTab }) {
           <Link
             key={tab.name}
             href={tab.href}
-            onClick={() => {
+            onClick={(e) => {
               setIsOpen(false);
               handleMenu(e, tab.href)
             }}

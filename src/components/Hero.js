@@ -3,8 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import { heroHeader, heroSubHeader } from "@/lib/styles";
-import GlitchText from "./GlitchText";
+import HeroTitle from "./Title/HeroTitle";
 
 const bgImages = [
   "/images/hero-bg-1.png",
@@ -23,11 +22,6 @@ export default function Hero() {
 
     return () => clearInterval(timer);
   }, []);
-
-
-  const headerOneVariant = {
-
-  }
 
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center bg-zinc-900 text-white p-6 overflow-hidden">
@@ -53,28 +47,9 @@ export default function Hero() {
         </AnimatePresence>
       </div>
 
-      <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-zinc-900/60 to-transparent z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-zinc-900/60 to-transparent z-0" />
 
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 , delay: 0.2}}
-        transition={{ duration: 1, ease: "easeOut" }}
-        viewport={{ once: true }}
-        className="relative z-10 text-center max-w-4xl mt-20"
-      >
-        <h1 className={heroHeader}>
-          Welcome to  <br />
-
-          {/* © */}
-          <GlitchText 
-            text="CHOSEN ONES" 
-            className="text-purple-500 drop-shadow-[0_0_15px_rgba(167,139,250,0.8)]" 
-          />
-        </h1>
-        <p className={heroSubHeader}>
-          Elite trainers. Many are called. Few are Chosen.
-        </p>
-      </motion.div>
+      <HeroTitle/>
 
       <motion.div
         initial={{ opacity: 0 }}

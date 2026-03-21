@@ -38,7 +38,7 @@ const [copiedType, setCopiedType] = useState(null);
             </h2>
             
             <p className={`${sectionSans} mb-8 leading-relaxed`}>
-              We are not an open-door team. We are looking for dedicated, top-tier trainers. Hardcore shiny hunters.
+              We are a community built on having fun. We are looking for friendly players—from dedicated shiny hunters to enthusiastic beginners—who just want to enjoy the game.
             </p>
 
             <div className="space-y-4 mb-8 md:mb-0">
@@ -72,7 +72,7 @@ const [copiedType, setCopiedType] = useState(null);
               JOIN THE RANKS
             </h3>
             <p className="font-sans text-sm text-zinc-500 mb-8 relative z-10">
-              Message an officer in-game or reach out on Discord to get your team invite!
+              Our roster is always full! Message an officer in-game or reach out on Discord to secure your slot.
             </p>
             
             <button 

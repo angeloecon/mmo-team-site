@@ -3,24 +3,18 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import teamData from "@/data/team.json";
-import { sectionHeader, sectionSans } from "@/lib/styles";
+import SectionTitle from "./Title/SectionTitle";
 
 export default function Roster() {
   return (
     <section className="py-24 bg-zinc-900 text-white px-6">
       <div className="max-w-6xl mx-auto">
         
-        <motion.div 
-          initial={{ opacity: 0, y: -20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <h2 className={`${sectionHeader} uppercase tracking-wide`}>
-            The <span className="text-purple-500">Vanguard</span>
-          </h2>
-          <p className={`${sectionSans} mt-4`}>Meet the highest ranking officers of our team.</p>
-        </motion.div>
+        <SectionTitle
+          firstWord={"The"}
+          secondWord={"Vanguard"}
+          sentence={"Meet the highest ranking officers of our team."}
+        />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamData.leaders.map((member, index) => {

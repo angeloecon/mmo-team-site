@@ -2,7 +2,8 @@
 
 import { motion } from "framer-motion";
 import teamRules from "../data/team.json";
-import { sectionHeader, sectionSans } from "@/lib/styles";
+import { sectionSans } from "@/lib/styles";
+import SectionTitle from "./Title/SectionTitle";
 
 export default function Rules() {
   return (
@@ -10,19 +11,12 @@ export default function Rules() {
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-32 bg-purple-600/10 blur-[100px] pointer-events-none"></div>
 
       <div className="max-w-6xl mx-auto relative z-10">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="mb-16 text-center"
-        >
-          <h2 className={`${sectionHeader} uppercase tracking-wide `}>
-            Our <span className="text-purple-500">Code</span>
-          </h2>
-          <p className={`${sectionSans} mt-4 `}>
-            Excellence requires discipline. These are our core mandates.
-          </p>
-        </motion.div>
+
+        <SectionTitle
+          firstWord={"Our"}
+          secondWord={"Code"}
+          sentence={"Excellence requires discipline. These are our core mandates."}
+        />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {teamRules.teamRules.map((rule, index) => (
