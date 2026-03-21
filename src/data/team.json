@@ -56,11 +56,11 @@
       "pokemonImg": "/images/pokemonImages/shiny-mudkip.png"
     },
     {
-      "id": 6,
-      "name": "Ruiner",
+      "id": 7,
+      "name": "Atreus",
       "role": "Commander",
       "signature": "Garchomp",
-      "quote": "I don't play the meta. I fund it.",
+      "quote": "Quitting at 100,000 encounters? Not my style. We don't walk away until it shines.",
       "trainerImg": "/images/trainerImages/Rieri.png",
       "pokemonImg": "/images/pokemonImages/shiny-mudkip.png"
     }
